@@ -1,0 +1,46 @@
+{
+    "sourceFile": "styles/video.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1712806226187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712806476115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,6 +44,7 @@\n }\n \n \n .video-time {\n+    font-family: Roboto,Arial;\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712806487698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,6 +45,6 @@\n \n \n .video-time {\n     font-family: Roboto,Arial;\n-    \n+    font-size: 12px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712806510800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,5 +46,8 @@\n \n .video-time {\n     font-family: Roboto,Arial;\n     font-size: 12px;\n+    font-weight: 500;\n+    padding-left: 4px;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712806520663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,6 +48,7 @@\n     font-family: Roboto,Arial;\n     font-size: 12px;\n     font-weight: 500;\n     padding-left: 4px;\n+    padding-right: 4px;\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712806543618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,6 +49,8 @@\n     font-size: 12px;\n     font-weight: 500;\n     padding-left: 4px;\n     padding-right: 4px;\n+    padding-bottom: 4px;\n+    border-radius: 2px;\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712806551645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,6 +51,6 @@\n     padding-left: 4px;\n     padding-right: 4px;\n     padding-bottom: 4px;\n     border-radius: 2px;\n-    \n+    background-color: black;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712806591628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,60 @@\n+.thumbnail{\n+    width: 100%;\n+}\n+\n+.video-title {\n+    margin-top: 0;\n+    font-size: 14px;\n+    font-weight: 500px ;\n+    line-height: 20px;\n+    margin-bottom: 12px;\n+}\n+\n+\n+.video-info-grid {\n+    display: grid;\n+    grid-template-columns: 50px 1fr;\n+}\n+\n+\n+.profile-picture{\n+    width: 40px;\n+    border-radius: 50px;\n+}\n+\n+\n+.thumbnail-row {\n+    margin-bottom: 12px;\n+}\n+\n+.video-author,.video-stats {\n+    font-size: 12px;\n+    color: rgb(96, 96, 96);\n+}\n+\n+.video-author {\n+    margin-bottom: 4px;\n+}\n+\n+.video-grid{\n+    display: grid;\n+    grid-template-columns: 1fr 1fr 1fr;\n+    column-gap: 16px;\n+    row-gap: 40px;\n+}\n+\n+\n+.video-time {\n+    font-family: Roboto,Arial;\n+    font-size: 12px;\n+    font-weight: 500;\n+    padding-left: 4px;\n+    padding-right: 4px;\n+    padding-bottom: 4px;\n+    border-radius: 2px;\n+    background-color: black;\n+    color: white;\n+    position: absolute;\n+    bottom:8px;\n+    right: 5px;\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1712806226187,
+            "name": "Commit-0",
+            "content": ".thumbnail{\n    width: 100%;\n}\n\n.video-title {\n    margin-top: 0;\n    font-size: 14px;\n    font-weight: 500px ;\n    line-height: 20px;\n    margin-bottom: 12px;\n}\n\n\n.video-info-grid {\n    display: grid;\n    grid-template-columns: 50px 1fr;\n}\n\n\n.profile-picture{\n    width: 40px;\n    border-radius: 50px;\n}\n\n\n.thumbnail-row {\n    margin-bottom: 12px;\n}\n\n.video-author,.video-stats {\n    font-size: 12px;\n    color: rgb(96, 96, 96);\n}\n\n.video-author {\n    margin-bottom: 4px;\n}\n\n.video-grid{\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n    column-gap: 16px;\n    row-gap: 40px;\n}\n\n\n.video-time {\n    \n}"
+        }
+    ]
+}
